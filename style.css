@@ -74,9 +74,23 @@ main {
     border: 1px solid red;
     content: "input password";
 } */
-input:focus:invalid{
-    border: 1px solid red;
-    background-image: url(./images/icon-error.svg) no-repeat;
+input {
+  position: relative;
+  /* padding-right: 50px; */
+}
+input:focus:invalid {
+  border: 1px solid red;
+  background-image: url(./images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: 95%;
+  padding: 10px 15px 10px 15px;
+}
+input[type="email"]:focus:invalid::after {
+  position: absolute;
+  content: "Input password";
+  background-color: blue;
+  width: 50px;
+  height: 20px;
 }
 @media (max-width: 375px) {
   body {
