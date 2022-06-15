@@ -70,6 +70,14 @@ main {
   color: hsl(0, 100%, 74%);
   font-weight: bolder;
 }
+/* input[type=password]:invalid{
+    border: 1px solid red;
+    content: "input password";
+} */
+input:focus:invalid{
+    border: 1px solid red;
+    background-image: url(./images/icon-error.svg) no-repeat;
+}
 @media (max-width: 575px) {
   body {
     background-image: url(./images/bg-intro-mobile.png);
