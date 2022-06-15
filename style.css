@@ -69,11 +69,11 @@ main {
   color: hsl(0, 100%, 74%);
   font-weight: bolder;
 }
-input ~ p{
-    color: red;
-    font-size: 9px;
-    text-align: right;
-    opacity: 0;
+input ~ p {
+  color: red;
+  font-size: 9px;
+  text-align: right;
+  opacity: 0;
 }
 input:focus:invalid {
   border: 1px solid red;
@@ -83,21 +83,21 @@ input:focus:invalid {
   background-position: 95%;
   padding: 10px 15px 10px 15px;
 }
-.error-message{
-    width: 90%;
-    text-align: right;
+.error-message {
+  width: 90%;
+  text-align: right;
 }
-input[name=fname]:focus:invalid ~ .fn{
-   opacity: 1;
+input[name="fname"]:focus:invalid ~ .fn {
+  opacity: 1;
 }
-input[name=lname]:focus:invalid ~ .ln{
-   opacity: 1;
+input[name="lname"]:focus:invalid ~ .ln {
+  opacity: 1;
 }
-input[type=email]:focus:invalid ~ .em{
-    opacity: 1;
+input[type="email"]:focus:invalid ~ .em {
+  opacity: 1;
 }
-input[type=password]:focus:invalid ~ .pa{
-    opacity: 1;
+input[type="password"]:focus:invalid ~ .pa {
+  opacity: 1;
 }
 
 @media (max-width: 375px) {
@@ -116,7 +116,8 @@ input[type=password]:focus:invalid ~ .pa{
     color: #ffffff;
     text-align: center;
   }
-  .left-side h1, .left-side p{
+  .left-side h1,
+  .left-side p {
     text-align: center;
   }
 }
