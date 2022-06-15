@@ -82,6 +82,7 @@ main {
   .left-side,
   .right-side {
     width: 80%;
+    margin: auto;
     color: #ffffff;
     text-align: center;
   }
