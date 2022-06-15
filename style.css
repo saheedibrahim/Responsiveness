@@ -83,7 +83,7 @@ input:focus:invalid {
   background-image: url(./images/icon-error.svg);
   background-repeat: no-repeat;
   background-position: 95%;
-  padding: 10px 15px 10px 15px;
+  padding: 5px 15px 5px 15px;
 }
 input[type="email"]:focus:invalid::after {
   position: absolute;
