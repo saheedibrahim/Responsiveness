@@ -116,4 +116,7 @@ input[type=password]:focus:invalid ~ .pa{
     color: #ffffff;
     text-align: center;
   }
+  . h1, .left-side p{
+    text-align: center;
+  }
 }
