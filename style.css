@@ -78,7 +78,7 @@ input:focus:invalid{
     border: 1px solid red;
     background-image: url(./images/icon-error.svg) no-repeat;
 }
-@media (max-width: 575px) {
+@media (max-width: 375px) {
   body {
     background-image: url(./images/bg-intro-mobile.png);
   }
